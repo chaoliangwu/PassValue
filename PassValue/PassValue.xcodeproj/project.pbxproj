@@ -14,6 +14,7 @@
 		2B731AE41B536A4B003930C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B731AE31B536A4B003930C0 /* Images.xcassets */; };
 		2B731AE71B536A4B003930C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B731AE51B536A4B003930C0 /* LaunchScreen.xib */; };
 		2B731AF31B536A4B003930C0 /* PassValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B731AF21B536A4B003930C0 /* PassValueTests.m */; };
+		2B731B001B536C2E003930C0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B731AFF1B536C2E003930C0 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,9 @@
 		2B731AEC1B536A4B003930C0 /* PassValueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassValueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B731AF11B536A4B003930C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B731AF21B536A4B003930C0 /* PassValueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassValueTests.m; sourceTree = "<group>"; };
+		2B731AFD1B536B77003930C0 /* PassValueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassValueDelegate.h; sourceTree = "<group>"; };
+		2B731AFE1B536C2E003930C0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2B731AFF1B536C2E003930C0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +87,11 @@
 			children = (
 				2B731ADA1B536A4B003930C0 /* AppDelegate.h */,
 				2B731ADB1B536A4B003930C0 /* AppDelegate.m */,
+				2B731AFD1B536B77003930C0 /* PassValueDelegate.h */,
 				2B731ADD1B536A4B003930C0 /* ViewController.h */,
 				2B731ADE1B536A4B003930C0 /* ViewController.m */,
+				2B731AFE1B536C2E003930C0 /* SecondViewController.h */,
+				2B731AFF1B536C2E003930C0 /* SecondViewController.m */,
 				2B731AE01B536A4B003930C0 /* Main.storyboard */,
 				2B731AE31B536A4B003930C0 /* Images.xcassets */,
 				2B731AE51B536A4B003930C0 /* LaunchScreen.xib */,
@@ -219,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B731B001B536C2E003930C0 /* SecondViewController.m in Sources */,
 				2B731ADF1B536A4B003930C0 /* ViewController.m in Sources */,
 				2B731ADC1B536A4B003930C0 /* AppDelegate.m in Sources */,
 				2B731AD91B536A4B003930C0 /* main.m in Sources */,

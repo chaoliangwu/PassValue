@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  PassValue
 //
 //  Created by 朝亮 on 15/7/13.
@@ -7,12 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
 #import "PassValueDelegate.h"
 
-@interface ViewController : UIViewController <PassValueDelegate>
+@interface SecondViewController : UIViewController
 
 @property(nonatomic,copy)NSString *value;
 
-@end
+@property(nonatomic,weak)id<PassValueDelegate> delegate;
 
+
+-(void)passValueIn:(NSString*)value;
+
+@end
